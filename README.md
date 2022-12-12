@@ -37,12 +37,12 @@ make install
 
 ### Converting a file
 
-Once the utility is installed you can run it to convert a file.
+Once the utility is installed you can run it to convert a file.  
 The first argument will be the input file.
 ```bash
 boucles-v2 my-movie.xlsx
 ```
-The output will be written to a file with the same name but a different suffix.
+The output will be written to a file with the same name but a different suffix.  
 For instance in the example above the output will be `my-movie.csv`.
 
 The content of the output file will be similar to:
@@ -57,8 +57,10 @@ Boucle,Timecode In,Timecode Out
 
 ## Contributing
 
-Contributions are welcome! Open a pull request to fix a bug, or open an issue to discuss a new feature or change.
+Contributions are welcome!  
+Open a pull request to fix a bug, or open an issue to discuss a new feature or change.
 
 ## Licenses
 
-This program is under the terms of the BSD 3-Clause License. See [https://opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
+This program is under the terms of the BSD 3-Clause License.  
+See [https://opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
