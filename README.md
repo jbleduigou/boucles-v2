@@ -1,7 +1,5 @@
 <p align="center"><img width="50%" src="./christmas.svg" alt="Nedeleg Laouen"></p>
 
-<h1 style="color:#BD0019">🎄 Nedeleg Laouen Jean-Mari ! 🎄</h1>
-
 # Boucles V2
 
 ## Introduction
