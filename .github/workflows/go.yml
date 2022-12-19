@@ -23,3 +23,7 @@ jobs:
     - name: Compile Go
       run: |
         go build ./...
+
+    - name: Run unit tests
+      run: |
+        go test ./... -race 
