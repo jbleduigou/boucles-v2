@@ -33,24 +33,21 @@ Then you can simply use the Makefile to install the utility:
 make install
 ```
 
-### Converting a file
+### Converting all files in directory
 
-Once the utility is installed you can run it to convert a file.  
-The first argument will be the input file.
+Once the utility is installed you can run it to convert all files in directory.  
+The first argument will the directory containing the files.
 ```bash
-boucles-v2 my-movie.xlsx
+boucles-v2 .
 ```
-The output will be written to a file with the same name but a different suffix.  
-For instance in the example above the output will be `my-movie.csv`.
+The output files will be written to a file with the same name but a different suffix.  
+For instance if the input file is `my-movie.xlsx` then the output will be `my-movie.csv`.
 
 The content of the output file will be similar to:
 ```csv
-Boucle,Timecode In,Timecode Out
-1,,
-2,,01:00:45:01
-3,01:00:45:01,01:01:06:15
-4,01:01:06:15,01:02:01:03
-5,01:02:01:03,01:02:46:10
+1,01:00:45:01,01:01:06:15
+2,01:01:06:15,01:02:01:03
+3,01:02:01:03,01:02:46:10
 ```
 
 ## Contributing
