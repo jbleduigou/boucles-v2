@@ -24,8 +24,9 @@ func main() {
 	}
 
 	for _, file := range files {
-		if strings.HasSuffix(file.Name(), ".xlsx") {
-			processFile(file.Name())
+		fileName := os.Args[1] + "/" + file.Name()
+		if strings.HasSuffix(fileName, ".xlsx") {
+			processFile(fileName)
 		}
 	}
 }
